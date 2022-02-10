@@ -11,6 +11,6 @@ const nextConfig = {
 };
 
 // eslint-disable-next-line
-const withTM = require("next-transpile-modules")(["slice1"]);
+const withTM = require("next-transpile-modules")([]);
 
 module.exports = withTM(nextConfig);
